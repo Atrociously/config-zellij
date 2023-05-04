@@ -212,7 +212,7 @@ keybinds clear-defaults=true {
         bind "Esc" { SwitchToMode "locked"; }
         bind "Ctrl q" { Quit; }
         bind "-" { NewPane "Down"; SwitchToMode "locked"; }
-        bind "%" { NewPane "Right"; SwitchToMode "locked"; }
+        bind "\\" { NewPane "Right"; SwitchToMode "locked"; }
         bind "z" { ToggleFocusFullscreen; SwitchToMode "locked"; }
         bind "c" { NewTab; SwitchToMode "locked"; }
         bind "," { SwitchToMode "RenameTab"; TabNameInput 0; }
